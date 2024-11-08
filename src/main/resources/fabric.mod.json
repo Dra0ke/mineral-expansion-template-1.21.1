@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mineral-expansion",
+	"version": "${version}",
+	"name": "Mineral Expansion",
+	"description": "A Mod That adds lots of new ores to make caving more rewarding and interesting",
+	"authors": [
+		"Dra0ke"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mineral-expansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dra0ke.mineralexpansion.MineralExpansion"
+		],
+		"fabric-datagen": [
+			"net.dra0ke.mineralexpansion.MineralExpansionDataGenerator"
+		],
+		"client": [
+			"net.dra0ke.mineralexpansion.MineralExpansionClient"
+		]
+	},
+	"mixins": [
+		"mineral-expansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
