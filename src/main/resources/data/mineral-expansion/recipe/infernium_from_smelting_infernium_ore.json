@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.5,
+  "group": "infernium",
+  "ingredient": {
+    "item": "mineral-expansion:infernium_ore"
+  },
+  "result": {
+    "id": "mineral-expansion:infernium"
+  }
+}

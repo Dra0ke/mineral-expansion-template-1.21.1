@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 3.2,
+  "group": "titanium_ingot",
+  "ingredient": {
+    "item": "mineral-expansion:titanium_ore"
+  },
+  "result": {
+    "id": "mineral-expansion:titanium_ingot"
+  }
+}

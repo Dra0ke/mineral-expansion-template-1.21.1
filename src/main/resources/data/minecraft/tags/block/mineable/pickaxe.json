@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mineral-expansion:titanium_block",
+    "mineral-expansion:raw_titanium_block",
+    "mineral-expansion:titanium_ore",
+    "mineral-expansion:deepslate_titanium_ore",
+    "mineral-expansion:infernium_ore",
+    "mineral-expansion:infernium_block"
+  ]
+}

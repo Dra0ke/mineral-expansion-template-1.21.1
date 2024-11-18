@@ -18,8 +18,17 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_TITANIUM);
                         entries.add(ModItems.TITANIUM_INGOT);
+
+                        entries.add(ModItems.TITANIUM_APPLE);
+
                         entries.add(ModBlocks.RAW_TITANIUM_BLOCK);
                         entries.add(ModBlocks.TITANIUM_BLOCK);
+                        entries.add(ModBlocks.DEEPSLATE_TITANIUM_ORE);
+                        entries.add(ModBlocks.TITANIUM_ORE);
+
+                        entries.add(ModItems.INFERNIUM);
+                        entries.add(ModBlocks.INFERNIUM_ORE);
+                        entries.add(ModBlocks.INFERNIUM_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

@@ -2,9 +2,20 @@
   "item.mineral-expansion.titanium_ingot": "Titanium Ingot",
   "item.mineral-expansion.raw_titanium": "Raw Titanium",
 
+  "item.mineral-expansion.titanium_apple": "Titanium Apple",
+
+  "item.mineral-expansion.infernium": "Infernium",
+
 
   "block.mineral-expansion.titanium_block": "Titanium Block",
   "block.mineral-expansion.raw_titanium_block": "Raw Titanium Block",
+  "block.mineral-expansion.titanium_ore": "Titanium Ore",
+  "block.mineral-expansion.deepslate_titanium_ore": "Deepslate Titanium Ore",
+  "block.mineral-expansion.infernium_ore": "Infernium Ore",
+  "block.mineral-expansion.infernium_block": "Infernium Block",
+
+
+  "itemgroup.mineral-expansion.mineral_expansion_items": "Mineral Expansion",
 
 
   "effect.mineral-expansion.bouncy": "Bouncy",

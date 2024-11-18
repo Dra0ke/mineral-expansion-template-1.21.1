@@ -8,6 +8,7 @@ import net.dra0ke.mineralexpansion.potion.ModPotions;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
 import org.slf4j.Logger;
@@ -27,6 +28,9 @@ public class MineralExpansion implements ModInitializer {
 		ModEffects.registerEffects();
 
 		ModPotions.registerPotions();
+
+		FuelRegistry.INSTANCE.add(ModItems.INFERNIUM, 3200);
+		FuelRegistry.INSTANCE.add(ModBlocks.INFERNIUM_BLOCK, 32000);
 
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.BOUNCY_POTION);

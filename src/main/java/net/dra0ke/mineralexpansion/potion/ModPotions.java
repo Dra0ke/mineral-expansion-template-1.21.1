@@ -15,7 +15,7 @@ public class ModPotions {
     public static final RegistryEntry<Potion> BOUNCY_POTION = registerPotion("bouncy_potion",
             new Potion(new StatusEffectInstance(ModEffects.BOUNCY, 300, 0)));
     public static final RegistryEntry<Potion> ARMOR_DECAY_POTION = registerPotion("armor_decay_potion",
-            new Potion(new StatusEffectInstance(ModEffects.ARMOR_DECAY, 480, 0)));
+            new Potion(new StatusEffectInstance(ModEffects.ARMOR_DECAY, 1000, 0)));
     public static final RegistryEntry<Potion> SOUL_FLAME_POTION = registerPotion("soul_flame_potion",
             new Potion(new StatusEffectInstance(ModEffects.SOUL_FLAME, 400, 0)));
 
