@@ -1,0 +1,29 @@
+{
+  "item.mineral-expansion.titanium_ingot": "Titanium Ingot",
+  "item.mineral-expansion.raw_titanium": "Raw Titanium",
+
+
+  "block.mineral-expansion.titanium_block": "Titanium Block",
+  "block.mineral-expansion.raw_titanium_block": "Raw Titanium Block",
+
+
+  "effect.mineral-expansion.bouncy": "Bouncy",
+  "effect.mineral-expansion.armor_decay": "Armor Decay",
+  "effect.mineral-expansion.soul_flame": "Soul Flame",
+
+
+  "item.minecraft.potion.effect.bouncy_potion": "Potion of Bouncing",
+  "item.minecraft.splash_potion.effect.bouncy_potion": "Splash Potion of Bouncing",
+  "item.minecraft.lingering_potion.effect.bouncy_potion": "Lingering Potion of Bouncing",
+  "item.minecraft.tipped_arrow.effect.bouncy_potion": "Tipped Arrow of Bouncing",
+
+  "item.minecraft.potion.effect.armor_decay_potion": "Potion of Armor Decay",
+  "item.minecraft.splash_potion.effect.armor_decay_potion": "Splash Potion of Armor Decay",
+  "item.minecraft.lingering_potion.effect.armor_decay_potion": "Lingering Potion of Armor Decay",
+  "item.minecraft.tipped_arrow.effect.armor_decay_potion": "Tipped Arrow of Armor Decay",
+
+  "item.minecraft.potion.effect.soul_flame_potion": "Potion of Soul Flames",
+  "item.minecraft.splash_potion.effect.soul_flame_potion": "Splash Potion of Soul Flames",
+  "item.minecraft.lingering_potion.effect.soul_flame_potion": "Lingering Potion of Soul Flames",
+  "item.minecraft.tipped_arrow.effect.soul_flame_potion": "Tipped Arrow of Soul Flames"
+}
